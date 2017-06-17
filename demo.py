@@ -45,4 +45,5 @@ def predict_prices(dates, prices, x):
 get_data('aapl.csv')
 
 predicted_prices = predict_prices(dates, prices, 29)
+
 print(predicted_prices)
